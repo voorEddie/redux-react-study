@@ -1,0 +1,18 @@
+html, body, #root, .App {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+
+}
+
+.App-main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #EDEDED;
+}

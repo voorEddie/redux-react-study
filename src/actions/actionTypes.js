@@ -1,0 +1,3 @@
+export const OPEN_MENU_TAB = 'OPEN_MENU_TAB'
+export const CLOSE_MENU_TAB = 'CLOSE_MENU_TAB'
+export const ACTIVE_MENU_TAB = 'ACTIVE_MENU_TAB'

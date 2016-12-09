@@ -1,0 +1,26 @@
+.Menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background-color: #333;
+}
+
+.Menu-item {
+  color: #CCC;
+  padding: 15px 20px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 400ms ease, background-color 400ms ease;
+}
+
+.Menu-item:hover {
+  color: #EEE;
+  background-color: #555;
+}
+
+.Menu-item.active {
+  color: #61DAFB;
+  background-color: #333;
+  pointer-events: none;
+}
